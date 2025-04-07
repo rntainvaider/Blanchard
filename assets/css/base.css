@@ -1,0 +1,21 @@
+body {
+    font-family: var(--font-family);
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-weight: 400;
+    font-size: 48px;
+    color: #333;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #333;
+}

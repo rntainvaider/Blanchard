@@ -1,0 +1,11 @@
+.about {
+    padding: 78px 0;
+}
+
+.about__title {
+    margin-bottom: 25px;
+}
+
+.about__description {
+    max-width: 1050px;
+}

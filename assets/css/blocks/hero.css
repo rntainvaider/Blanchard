@@ -1,0 +1,36 @@
+.hero {
+    background: grey url("../../images/hero/hero-bg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero__wrapper {
+    max-width: 579px;
+    padding: 146px 0;
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 94%;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.hero__description {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 167%;
+    color: #fff;
+    margin-bottom: 92px;
+}
+
+.hero__button {
+    border-radius: 100px;
+    padding: 25px 35px;
+    background: #9d5cd0;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+}
