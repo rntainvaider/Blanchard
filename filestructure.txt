@@ -1,0 +1,46 @@
+|-- .gitignore
+|-- assets
+    |-- css
+        |-- base.css
+        |-- blocks
+            |-- about.css
+            |-- catalog.css
+            |-- contact.css
+            |-- event.css
+            |-- footer.css
+            |-- gallery.css
+            |-- header.css
+            |-- hero.css
+            |-- module.css
+            |-- projects.css
+        |-- fonts.css
+        |-- index.css
+        |-- normalize.css
+        |-- reset.css
+        |-- variables.css
+    |-- icons
+        |-- logo.svg
+        |-- odnoklassniki.svg
+        |-- Telegram.svg
+        |-- vk.svg
+        |-- Whatsapp.svg
+    |-- images
+        |-- catalog
+            |-- img_one.jpg
+            |-- img_three.jpg
+            |-- img_two.jpg
+        |-- event
+            |-- img_one.png
+            |-- img_three.png
+            |-- img_two.png
+        |-- gallery
+            |-- bg.jpg
+            |-- img_one.jpg
+            |-- img_two.jpg
+            |-- img__three.jpg
+        |-- hero
+            |-- hero-bg.webp
+        |-- projects
+            |-- Freelands-Foundation.png
+            |-- Institute.png
+|-- index.html

@@ -1,0 +1,18 @@
+.footer {
+    background: #000;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.footer__messangers {
+    display: flex;
+    gap: 20px;
+}
+
+.footer__message-icon {
+    display: block;
+}

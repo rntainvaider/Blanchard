@@ -18,32 +18,32 @@
         <nav class="header__menu">
           <ul class="header__list">
             <li class="header__item">
-              <a href="#" class="header__link">
+              <a href="#about" class="header__link">
                 О нас
               </a>
             </li>
             <li class="header__item">
-              <a href="#" class="header__link">
+              <a href="#gallery" class="header__link">
                 Галерея
               </a>
             </li>
             <li class="header__item">
-              <a href="#" class="header__link">
+              <a href="#catalog" class="header__link">
                 Каталог
               </a>
             </li>
             <li class="header__item">
-              <a href="#" class="header__link">
+              <a href="#event" class="header__link">
                 События
               </a>
             </li>
             <li class="header__item">
-              <a href="#" class="header__link">
+              <a href="#projects" class="header__link">
                 Проекты
               </a>
             </li>
             <li class="header__item">
-              <a href="#" class="header__link">
+              <a href="#contact" class="header__link">
                 Контакты
               </a>
             </li>
@@ -80,7 +80,7 @@
       </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <h2 class="about__title section-title">
           О нас
@@ -98,7 +98,7 @@
       </div>
     </section>
 
-    <section class="gallery">
+    <section class="gallery" id="gallery">
       <div class="container gallery__container">
         <h2 class="gallery__title section-title">
           Галерея
@@ -143,7 +143,7 @@
       </div>
     </section>
 
-    <section class="catalog">
+    <section class="catalog" id="catalog">
       <div class="container catalog__container">
         <h2 class="catalog__title section-title">
           Каталог
@@ -216,7 +216,7 @@
       </div>
     </section>
 
-    <section class="event">
+    <section class="event" id="event">
       <div class="container">
         <h2 class="event__title section-title">
           События
@@ -288,7 +288,84 @@
         </ul>
       </div>
     </section>
+
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="projects__title section-title">
+          Проекты
+        </h2>
+        <p class="projects__description section-description">
+          Предварительные выводы: постоянное информационно-пропагандистское обеспечение нашей деятельности однозначно
+          фиксирует необходимость своевременного выполнения сверхзадачи. А ещё независимые государства смешаны
+          с не уникальными данными до степени совершённой неузнаваемости, из-за чего возрастает их статус бесполезности.
+          Прежде всего, постоянное информационно-пропагандистское обеспечение нашей деятельности однозначно фиксирует
+          необходимость экономической целесообразности принимаемых решений. И нет сомнений, что действия представителей
+          оппозиции могут быть рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Банальные,
+          но неопровержимые выводы, а также представители современных социальных резервов призывают нас к новым
+          свершениям, которые, в свою очередь, должны быть смешаны с не уникальными данными до степени совершённой
+          неузнаваемости.
+        </p>
+        <h3 class="projects__title-sub">
+          Партнёры проектов:
+        </h3>
+        <ul class="projects__list">
+          <li class="projects__item">
+            <img src="./assets/images/projects/Freelands-Foundation.png" alt="Freelands Foundation"
+              class="projects__image">
+          </li>
+          <li class="projects__item">
+            <img src="./assets/images/projects/Institute.png" alt="Institute for Contemporay Art"
+              class="projects__image">
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact__container">
+        <div class="contact__block-first">
+          <h3 class="contact__title">
+            Шоурум № 4
+          </h3>
+          <p class="contact__description section-description">
+            Леонтьевский переулок, дом 5/1
+          </p>
+        </div>
+        <form class="contact__form">
+          <input type="text" name="last_name" placeholder="Имя*" class="contact__form-input">
+          <input type="tel" name="phone" placeholder="Телефон*" class="contact__form-input">
+          <button type="submit" class="contact__form-button">
+            Заказать обратный звонок
+          </button>
+        </form>
+        <div class="contact__block-last">
+          <h3 class="contact__title contact__title-last">
+            Связаться в один клик
+          </h3>
+          <div class="contact__inner">
+            <img src="./assets/icons/Whatsapp.svg" alt="Whatsapp" class="contact__icon">
+            <img src="./assets/icons/Telegram.svg" alt="Telegram" class="contact__icon">
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <a href="./index.html" class="footer__logo logo">
+        <img src="./assets/icons/logo.svg" alt="Blanchard logo" class="logo__image">
+      </a>
+      <div class="footer__messangers">
+        <a href="#" class="footer__message">
+          <img src="./assets/icons/vk.svg" alt="Вконтакте" class="footer__message-icon">
+        </a>
+        <a href="#" class="footer__message">
+          <img src="./assets/icons/odnoklassniki.svg" alt="Одноклассники" class="footer__message-icon">
+        </a>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
