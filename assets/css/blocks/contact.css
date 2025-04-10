@@ -43,6 +43,23 @@
     gap: 20.5px;
 }
 
+.contact__icon path {
+    transition: opacity 0.5s ease;
+}
+
+@media (hover: hover) {
+    .contact__link:hover .contact__icon path {
+        opacity: 0.7;
+    }
+}
+
+.contact__link:active .contact__icon .contact__icon-bg {
+    fill: #30bf39;
+    stroke-width: 1px;
+    stroke: #9d5cd0;
+    opacity: 1;
+}
+
 .contact__title-last {
     margin-bottom: 7px;
 }
