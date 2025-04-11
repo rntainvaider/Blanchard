@@ -1,0 +1,31 @@
+.footer {
+    background: #000;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.footer__messangers {
+    display: flex;
+    gap: 20px;
+}
+
+.footer__message-icon {
+    display: block;
+}
+
+.footer__message-icon path {
+    transition: fill 0.3s ease;
+}
+
+@media (hover: hover) {
+    .footer__message:hover .footer__message-icon path {
+        fill: white;
+    }
+}
+.footer__message:active .footer__message-icon path {
+    fill: #9d5cd0;
+}

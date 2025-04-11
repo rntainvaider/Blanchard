@@ -28,9 +28,26 @@
 
 .hero__button {
     border-radius: 100px;
-    padding: 25px 35px;
+    padding: 22px 35px;
     background: #9d5cd0;
     font-weight: 700;
     font-size: 18px;
     color: #fff;
+    border: 3px solid #9d5cd0;
+    transition: border 0.5s ease, background 0.5s ease;
+}
+
+.hero__button:focus-visible {
+    outline: 2px solid #c283f3;
+    outline-offset: 3px;
+}
+
+@media (hover: hover) {
+    .hero__button:hover {
+        border: 3px solid #d1a9f0;
+    }
+}
+
+.hero__button:active {
+    background: #7943a4;
 }

@@ -1,0 +1,29 @@
+.projects {
+    margin-bottom: 78px;
+}
+
+.projects__title {
+    margin-bottom: 20px;
+}
+
+.projects__description {
+    max-width: 1080px;
+    margin-bottom: 32px;
+}
+
+.projects__title-sub {
+    font-weight: 600;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 19px;
+}
+
+.projects__list {
+    display: flex;
+    gap: 34px;
+}
+
+.projects__item {
+    border: 1px solid #cacaca;
+    padding: 25px;
+}

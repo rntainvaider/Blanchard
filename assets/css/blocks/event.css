@@ -1,4 +1,6 @@
-/* сделать checkbox */
+.event {
+    margin-bottom: 85px;
+}
 
 .event__title {
     margin-bottom: 22px;
@@ -22,7 +24,8 @@
     display: flex;
     flex-direction: column;
     padding: 15px 50px 47px 50px;
-    height: 400px;
+    min-height: 400px;
+    height: 100%;
 }
 
 .event__item-name {
@@ -46,9 +49,32 @@
     line-height: 134%;
 }
 
+.event__item-text {
+    margin-bottom: 66px;
+}
+
 .event__item-link {
     color: #9d5cd0;
     text-decoration: underline;
     text-underline-offset: 7px;
     margin-top: auto;
+    transition: color 0.5s ease, background 0.5s ease;
+    outline: none;
+    padding: 5px 5px 10px;
+    width: max-content;
+}
+
+.event__item-link:focus-visible {
+    color: white;
+    background: #9d5cd0;
+}
+
+@media (hover: hover) {
+    .event__item-link:hover {
+        color: #7943a4;
+    }
+}
+
+.event__item-link:active {
+    color: #333;
 }
