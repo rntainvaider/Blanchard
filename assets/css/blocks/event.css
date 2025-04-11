@@ -53,4 +53,23 @@
     text-decoration: underline;
     text-underline-offset: 7px;
     margin-top: auto;
+    transition: color 0.5s ease, background 0.5s ease;
+    outline: none;
+    padding: 5px 5px 10px 5px;
+    width: max-content;
+}
+
+.event__item-link:focus-visible {
+    color: white;
+    background: #9d5cd0;
+}
+
+@media (hover: hover) {
+    .event__item-link:hover {
+        color: #7943a4;
+    }
+}
+
+.event__item-link:active {
+    color: #333;
 }
